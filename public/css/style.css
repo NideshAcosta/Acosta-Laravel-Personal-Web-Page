@@ -1,0 +1,158 @@
+.footer
+{
+    background-color: #424242;
+    padding: 10px 10px 0px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color:rgb(179, 179, 179);
+}
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+body
+{
+    background-color: #F6F6F6;
+}
+.bgImageProp
+{
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.homebg
+{
+    background-image: url('bg/bg.gif');
+}
+.homeContent
+{
+    color: white;
+    height: 100vh;
+}
+.homeContent span
+{
+    text-shadow: 2px 2px 5px rgb(80, 80, 80);
+}
+.center
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title , .emoji
+{
+    font-size: 80px;
+    font-weight: bold;
+    padding:0;
+}
+.emoji
+{
+    padding: -100px;
+}
+.welcome
+{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.homeButton
+{
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 4px  20px rgb(118, 118, 118);
+}
+.homeButton:hover
+{
+    box-shadow: 5px 7px  20px rgb(118, 118, 118);
+}
+.contactbg
+{
+    background-image: url('bg/bg.jpg');
+}
+.tableContainer
+{
+    background-color: #212529;
+    padding: 20px 20px 8px 20px;
+    margin-top: 20px;
+}
+table
+{
+    font-size: 20px;
+    text-align: center;
+}
+.morebg, .aboutbg, .lecturesbg, .gitLecturebg
+{
+    background-image: url('bg/paperbg1.jpg');
+}
+.morebg, .aboutbg
+{ 
+    padding: 350px 50px;
+}
+.gitLecturebg
+{
+    padding:590px 50px;
+}
+
+.moreContent, .aboutContent
+{
+    text-align: justify;
+    font-size: 16px;
+}
+.lectureLaravelPic
+{
+    background-image: url('bg/laravel.jpg');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.cardContainer
+{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.lectureGithubPic
+{
+    background-image: url('bg/github.jpg');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.cardL
+{
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+}
+.aboutImage
+{
+    background-image: url('bg/profile.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-color: rgb(167, 149, 152);
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px gray;
+}
+.link
+{
+    color: rgb(105, 105, 195);
+    text-decoration: none;
+    font-weight: bold;
+}
